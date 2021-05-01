@@ -97,21 +97,18 @@ For i = 2 To Last_Row
     End If
     
     
- 
+    Range("Q2:Q3").NumberFormat = "0.00%"
     
-   
+    Cells(2, 17).Value = WorksheetFunction.Max(Range("K:K"))
     
-
-
+    Cells(3, 17).Value = WorksheetFunction.Min(Range("K:K"))
+    
+    Cells(4, 17).Value = WorksheetFunction.Max(Range("L:L"))
+    
+    
 Next i
    
    
-
-   
-
-
-
-
 
 End Sub
 
