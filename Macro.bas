@@ -96,23 +96,9 @@ For i = 2 To Last_Row
     
     End If
     
-    
- 
-    
-   
-    
-
-
 Next i
    
    
-
-   
-
-
-
-
-
 End Sub
 
 
